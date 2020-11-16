@@ -1,0 +1,35 @@
+/*  Mobile Screens */
+@media screen and(min-width:400px) {
+    input {
+        width: 87% !important;
+    }
+
+    button {
+        right: 15px;
+    }
+
+    .material-icons {
+        position: absolute;
+        top: 12px;
+        right: 100px;
+    }
+
+    small {
+        left: -81px;
+    }
+}
+
+@media screen and (min-width:768px) {
+   
+    .img-container {margin-top: 20px;
+        height: 400px;
+    }
+
+    input {
+        width: 60% !important;
+    }
+
+    button {
+        right: 140px;
+    }
+}

@@ -1,0 +1,84 @@
+                                                /*  Media Queries  */
+
+@media only screen and (min-width:1000px){
+ body{
+     background: url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+ 
+    .img-container{
+     height: 800px;
+     background: url("../images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+
+ }
+ 
+nav {
+    height:0px;
+}
+.brand-logo{
+    position: relative;
+    top: 60px;
+    left: 100px;
+} 
+
+
+.centerText{
+    position: relative;
+    top: 200px;
+    h2{
+        word-wrap: break-word;
+        text-align: left;
+        max-width: 300px;
+        font-size: 4rem;
+        margin-left: 20px;
+    }p{
+        text-align: left;
+        position: relative;
+        left: -70px;
+        max-width: 100%;
+
+    }
+    small{
+        position: absolute;
+        left: 230px;
+        top: -10px;
+        color: hsl(0, 93%, 68%);
+    }
+}
+    input{
+        max-width: 100%;
+        width: 50% !important;
+        position: relative;
+        left: -80px;
+    }
+    
+
+.material-icons {
+    position: absolute;
+    top: 12px;
+    right: 392px;
+
+}
+
+button {
+    position: absolute;
+    top:0px;
+    right: 300px;}
+
+}
+
+
+/*  Desktop Screens  */
+
+
+
+
+
+
+
+/*  Media Queries   */
+
+
+
